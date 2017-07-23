@@ -1,5 +1,6 @@
 make network 480
-master master 
+master master
+outpath temp
 outfile net480
 allowunpub 1
 

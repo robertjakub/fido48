@@ -1,5 +1,6 @@
 make network 4800
 master master 
+outpath temp
 outfile net4800
 allowunpub 1
 

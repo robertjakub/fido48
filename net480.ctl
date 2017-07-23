@@ -1,6 +1,7 @@
 make network 480
 master master 
 outfile net480
+allowunpub 1
 
 data
 Host,480,Mazovia_Net,Warsaw_PL,Lukasz_Jachowicz,-Unpublished-,300,CM,MO,IBN,INA:fido.bajtek.org,U,ENC

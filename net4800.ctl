@@ -1,6 +1,7 @@
 make network 4800
 master master 
 outfile net4800
+allowunpub 1
 
 data
 Host,4800,Poland_Net,Warsaw_PL,Lukasz_Jachowicz,-Unpublished-,300,CM,MO,IBN,INA:fido.bajtek.org,U,ENC

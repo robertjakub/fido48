@@ -2,8 +2,8 @@ name FidoNet
 make region 48
 master master
 update temp
-outfile r48nodelist
-outdiff r48nodediff
+outfile REGION48
+outdiff R48DIFF
 outpath /var/spool/fido/ndlecho/
 submit 2:480/25 CRASH
 ;submit 2:4800/42 
@@ -15,7 +15,7 @@ arcopen z unzip -oj
 arcmove z zip -jmo
 removebom 1
 allowunpub 1
-process Wednesday
+;process Wednesday
 
 data
 Region,48,RC_Poland,PL,Lukasz_Jachowicz,-Unpublished-,300,CM,MO,IBN,INA:fido.bajtek.org,U,ENC

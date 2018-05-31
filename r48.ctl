@@ -4,10 +4,10 @@ master master
 update temp
 outfile REGION48
 outdiff R48DIFF
-outpath /var/spool/fido/ndlecho/
+outpath /home/robert/ftn/spool/ndlecho/
 submit 2:480/25 CRASH
 ;submit 2:4800/42 
-messages /var/spool/fido/msgbasedir/netmail
+messages /home/robert/ftn/spool/msgbasedir/netmail
 netaddress 2:4800/42
 threshold 0 -1
 arccopy z zip -jo
@@ -15,6 +15,7 @@ arcopen z unzip -oj
 arcmove z zip -jmo
 removebom 1
 allowunpub 1
+fixeofchar 1
 ;process Wednesday
 
 data

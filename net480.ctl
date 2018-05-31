@@ -3,6 +3,7 @@ master master
 outpath temp
 outfile net480
 allowunpub 1
+fixeofchar 1
 
 data
 Host,480,Mazovia_Net,Warsaw_PL,Lukasz_Jachowicz,-Unpublished-,300,CM,MO,IBN,INA:fido.bajtek.org,U,ENC

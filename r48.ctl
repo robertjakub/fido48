@@ -2,7 +2,7 @@ name FidoNet
 make region 48
 master master
 update temp
-outfile REGION48
+outfile R48nodelist
 outdiff R48DIFF
 outpath /home/robert/ftn/spool/ndlecho/
 submit 2:480/25 CRASH
